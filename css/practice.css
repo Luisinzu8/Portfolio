@@ -224,114 +224,22 @@ p {
     -webkit-margin-end: 0px;
 }
 
-#footer-second.dark-footer {
-    background-color: #3a723a;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
+.fab {
+    line-height: 3;
+    color: red;
+    font-size: 20px;
 }
-
-#footer-second.footer {
-    font-size: 16px;
-    line-height: 2.7;
+footer {
+  background: #fff;
 }
-
-.footer {
-    padding: 80px 0;
-    z-index: 100;
-    position: relative;
+footer a:hover {
+  background-color: white;
 }
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.square-service {
-    padding: 0 30px;
-    padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-    text-align: center;
-}
-
-.col-xs-12 {
-    width: 100%;
-}
-
-.footer .widget {
-    padding: 0 10px;
-    padding-top: 0px;
-    padding-right: 10px;
-    padding-bottom: 0px;
-    padding-left: 10px;
-}
-
-.color-red {
-    background: #fff;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: #fff;
-}
-
-.color-green {
-	background: #fff;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: #fff;
-}
-
-.icon-container {
-    font-family: "Montserrat",sans-serif;
-    font-size: 24px;
-    border: 1px solid #fff;
-    width: 100px;
-    position: initial;
-    height: 100px;
-    display: block;
-    margin: 0 auto 25px;
-    line-height: 105px;
-}
-
-.border-radius {
-    border-radius: 500px;
-    border-top-left-radius: 500px;
-    border-top-right-radius: 500px;
-    border-bottom-right-radius: 500px;
-    border-bottom-left-radius: 500px;
-    border-color: #fff;
-}
-
-.square-service i {
-	color: #000;
+footer p {
+  margin: 30px 0 0 0;
+  color: #999;
+  font-size: 14px;
+  letter-spacing: 0.1em;
 }
 
 .animate {
