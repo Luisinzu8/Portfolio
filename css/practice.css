@@ -75,12 +75,12 @@ div {
 
 #landing {
 	background-color: #000;
-    background-image: url("img/back_2.JPEG");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: all;
+    background-image: url("../img/back_ground.jpg");
 }
 
 .max-height {
