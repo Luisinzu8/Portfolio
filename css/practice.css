@@ -41,7 +41,10 @@ div {
     transition-timing-function: ease-in-out;
     transition-delay: initial;
 }
-
+span a:hover {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
 .wrapper {
     max-width: 1500px;
     background-color: #333; /* Black background color */
