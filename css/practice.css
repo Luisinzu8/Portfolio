@@ -94,8 +94,11 @@ img {
     margin-top: 25px;
     vertical-align: middle;
 }
+.background-image img {
+    display: block;
+}
 
-@media screen and (max-width:180px) {  
+@media screen and (max-width:640px) {  
   .background-image img {
     display: none;
   }
