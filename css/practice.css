@@ -82,7 +82,7 @@ span a:hover {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: auto;
+    height: all;
     width: 100%;
 }
 
@@ -187,13 +187,8 @@ h3 {
     padding-left: 0px;
     height: 20em;
 }
-
 .word-wrap {
     text-align: center;
-}
-
-#halo-link {
-    image-rendering: url("img/logo.png");
 }
 
 .bgpatttern {
