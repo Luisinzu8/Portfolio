@@ -313,7 +313,7 @@ a:active {
 }
 
 .navbar-brand h2 {
-  color: green;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a {
   color: gray !important;
@@ -325,13 +325,13 @@ a:active {
   padding: 13px 18px;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: green !important;
+  color: white !important;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > li.active > a,
 .navbar-default .navbar-nav > li.active > a:focus,
 .navbar-default .navbar-nav > li.active > a:hover {
-  color: #8a6038!important;
+  color: red !important;
   background-color: transparent;
 }
 .top-nav-collapse {
@@ -379,13 +379,11 @@ a:active {
 }
 .banner-text h1 {
   margin-bottom: 8px;
-}
-.banner-text span {
-  color: #8a6038;
+  color: red;
 }
 .banner-text h3 {
   letter-spacing: 0.03em;
-  color: #d9d9d9;
+  color: #fff;
 }
 .discover {
   position: absolute;
