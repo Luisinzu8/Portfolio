@@ -140,7 +140,7 @@ a:active {
    ---------------------------------------- */
 .btn {
   font-weight: 600;
-  color: #fff;
+  color: #000;
   font-size: 12px;
   padding: 18px 40px;
   display: inline-block;
@@ -151,7 +151,7 @@ a:active {
   border-radius: 4px;
 }
 .btn-dark {
-  background-color: #8a6038;
+  background-color: white;
   border: 1px solid transparent;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -167,9 +167,9 @@ a:active {
 .btn-dark:active:focus,
 .btn-dark:focus {
   background-color: transparent;
-  color: #8a6038;
+  color: red;
   outline: none;
-  border: 1px solid #8a6038;
+  border: 1px solid #fff;
 }
 /* ----------------------------------------
    ------------ 6.GO UP BUTTON ------------
@@ -187,19 +187,19 @@ a:active {
 .button-up .discover-line {
   width: 72px;
   height: 1px;
-  background-color: #363636;
+  background-color: #fff;
   display: inline-block;
   vertical-align: middle;
 }
 .button-up a {
   margin-right: 12px;
-  color: #363636;
-}
-.button-up:hover a {
   color: #fff;
 }
+.button-up:hover a {
+  color: red;
+}
 .button-up:hover .discover-line {
-  background-color: #fff;
+  background-color: red;
 }
 .button-up .discover-line,
 .button-up a {
@@ -395,7 +395,7 @@ a:active {
   z-index: 10;
 }
 .discover a {
-  color: #363636;
+  color: #fff;
 }
 .discover .discover-line,
 .discover a {
@@ -404,34 +404,34 @@ a:active {
   transition: all 0.4s ease;
 }
 .discover:hover a {
-  color: #8a6038;
+  color: red;
 }
 .discover .discover-line {
   width: 72px;
   height: 1px;
-  background-color: #363636;
+  background-color: #fff;
   display: inline-block;
   vertical-align: middle;
   margin-right: 12px;
 }
 .discover:hover .discover-line {
-  background-color: #8a6038;
+  background-color: red;
 }
 .banner-2 .banner-text h1,
 .banner-post .banner-text h1 {
   color: #fff;
 }
 .banner-post .discover a{
-  color: #999;
+  color: #fff;
 }
 .banner-post .discover a:hover {
-  color: #8a6038;
+  color: red;
 }
 .banner-post > .discover .discover-line {
-  background-color: #999;
+  background-color: #fff;
 }
 .banner-post > .discover:hover .discover-line {
-  background-color: #8a6038;
+  background-color: red;
 }
 /* ----------------------------------------
    ----------- 11.1.BANNER INDEX ----------
@@ -543,7 +543,7 @@ a:active {
   margin-top: 12px;
 }
 .skills .progress-lt .progress-bar {
-  background-color: #8a6038;
+  background-color: red;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: width 1.2s ease;;
@@ -556,7 +556,7 @@ a:active {
   margin-bottom: 8px;
 }
 .about-me-txt h3 span {
-  color: #8a6038;
+  color: red;
 }
 .about-me-txt h3 {
   margin-bottom: 22px;
@@ -600,7 +600,7 @@ a:active {
   margin: 72px auto 0 auto;
 }
 .swiper-scrollbar-drag {
-  background: #8a6038;
+  background: #fff;
 }
 .work-overlay {
   position: absolute;
@@ -609,7 +609,7 @@ a:active {
   width: 100%;
   height: 100%;
   z-index: 10;
-  background-color: rgba(138,96,56,0.92);
+  background-color: rgb(188, 15, 15);
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -689,7 +689,7 @@ a:active {
    --------------- 16.FACTS ---------------
    ---------------------------------------- */
 .facts {
-  background-color: #8a6038;
+  background-color: #636466;
 }
 .facts span {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
