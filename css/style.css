@@ -344,6 +344,9 @@ a:active {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+.top-nav-collapse h2 {
+  color: #000;
+}
 .top-nav-collapse .navbar-nav > li > a,
 .top-nav-collapse.navbar-light .navbar-nav > li > a,
 .navbar-default.nav-portfolio-detail .navbar-nav > li > a {
