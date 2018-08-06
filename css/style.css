@@ -601,18 +601,6 @@ a:active {
   opacity: 1;
 }
 /* ----------------------------------------
-   --------- 14.PORTFOLIO CONTACT ---------
-   ---------------------------------------- */
-.portfolio-contact {
-  background: url(../img/p_contact_bg.jpg) center center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.portfolio-contact h2 {
-  margin-bottom: 30px;
-  color: #fff;
-}
-/* ----------------------------------------
    ------------- 15.SERVICES --------------
    ---------------------------------------- */
 .services .services-item {
