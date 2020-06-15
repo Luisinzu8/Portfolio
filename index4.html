@@ -53,7 +53,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">My Work</a></li>
+            <li><a href="#work">My Work</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#resume">Resume</a></li>
           </ul><!-- /nav navbar-nav -->
@@ -64,9 +64,6 @@
 
     <!-- ======== BANNER ======== -->
     <div id="home" class="banner banner-video">
-      <video loop muted autoplay poster="video/bnw.jpg" class="video-bg">
-        <source src="video/bnw.mp4" type="video/mp4">
-      </video>
       <div class="video-effect">
         <div class="banner-text">
           <h1>LUIS INZUNZA</h1>
@@ -84,14 +81,14 @@
     <div id="about" class="about-me about-me-bg pd-t-144 pd-b-96">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="col-md-6 col-sm-6 col-xs-12 wow bounceInLeft">
             <img class="img-responsive" src="img/foto_me.JPEG" alt="About me" />
           </div><!-- /col-md-6 -->
           <div class="col-md-6 col-sm-6 col-xs-12 about-me-txt wow flash" data-wow-duration="1.2s">
             <h2>Hello!</h2>
-            <h3>My name is <span>Luis Inzunza</span>. I'm passionate about programming and continuous learning.</h3>
-            <p>I like to code.</p>
-            <p>Details here.</p>
+            <h3>My name is <span>Luis Inzunza</span>.</h3>
+            <h3>About Me</h3>
+            <p>I think value is one of my favorite words in the English language. Most nights I find myself planning my next day through the lens of value. As a software engineer, I provide value for clients through collaboration, design, development, and a routine morning of focused deep learning.</p>
             <a class="btn btn-dark" href="#contact">Contact Me</a>
           </div><!-- /col-md-6 -->
         </div><!-- /row -->
@@ -100,7 +97,7 @@
     <!-- ======== /ABOUT-ME ======== -->
 
     <!-- ======== SKILLS ======== -->
-    <div class="skills pd-b-144">
+    <div class="skills pd-b-144" id="work">
       <div class="container">
         <div class="row">
             <div class="skills text-center">
@@ -108,95 +105,87 @@
                 <h2>Technologies:</h2>
               </div>
                 <div class="row">
-                  <div class="col-md-3"><img src="img/html5.png"><h4>HTML5</h4></div>
-                  <div class="col-md-3"><img src="img/css3.png"><h4>CSS3</h4></div>
-                  <div class="col-md-3"><img src="img/javascript.png"><h4>Javascript</h4></div>
-                  <div class="col-md-3"><img src="img/bootstrap.png"><h4>Bootstrap</h4></div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-aws fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-html5 fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-css3 fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-react fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-npm fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-js-square fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-node-js fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-bootstrap fa-3x"></i>
+                  </div>
+                  <div>
+                    <i class="col-xs-2 col-sm-1 fab fa-github fa-3x"></i>
+                  </div>
                 </div>
-              </div><!-- /skills -->
+                <hr>          
+            </div><!-- /skills -->
         </div><!-- /row -->
       </div><!-- /container -->
     </div><!-- /skills -->
     <!-- ======== /TECHNOLOGIES ======== -->
 
     <!-- ======== WORK ======== -->
-    <div id="portfolio" class="work pd-t-b-144">
-      <div class="container-fluid">
+    <div class="album py-5 bg-light text-center">
+      <h2>Recent Projects</h2>
+      <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <div class="section-title">
-              <h2>Recent Work</h2>
-              <h4>Click on images to see my work!</h4>
-            </div><!-- /section-title -->
-          </div><!-- /col-md-12 -->
-          <div class="col-md-12">
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img class="img-responsive" src="img/Renestires.png" alt="Work"/>
-                  <div class="work-overlay">
-                    <div class="work-overlay-txt">
-                        <a href="https://s3-us-west-2.amazonaws.com/luisinzu/RenesTireshop/index.html"><h2>Rene's Tireshop</h2>
-                      </a>
-                    </div><!-- /work-overlay-txt -->
-                  </div><!-- /work-overlay -->
-                </div><!-- /swiper-slide -->
-                <div class="swiper-slide">
-                  <img class="img-responsive" src="img/10.png" alt="Work"/>
-                  <div class="work-overlay">
-                    <div class="work-overlay-txt">
-                        <a href="https://s3-us-west-2.amazonaws.com/luisinzu/BRoseStudio/brose.html"><h2>B.Rose Studio</h2>
-                      </a>
-                    </div><!-- /work-overlay-txt -->
-                  </div><!-- /work-overlay -->
-                </div><!-- /swiper-slide -->
-                <div class="swiper-slide">
-                  <img class="img-responsive" src="img/Patches.png" alt="Work"/>
-                  <div class="work-overlay">
-                    <div class="work-overlay-txt">
-                        <a href="https://s3-us-west-2.amazonaws.com/luisinzu/PatchesCo/HALO.html"><h2>Patches</h2>
-                      </a>
-                    </div><!-- /work-overlay-txt -->
-                  </div><!-- /work-overlay -->
-                </div><!-- /swiper-slide -->
-              </div><!-- /swiper-wrapper -->
-            </div><!-- /swiper-container -->
-            <div class="swiper-scrollbar"></div>
-          </div><!-- /col-md-12 -->
-        </div><!-- /row -->
-      </div><!-- /container-fluid -->
-    </div><!-- /work -->
+          <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+              <a href="https://luisinzu.s3-us-west-2.amazonaws.com/BRoseStudio/brose.html"><img src="img/brosestudio.png"></a>
+            <div class="card-body">
+              <p class="card-text">B.Rose Studio</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+              <a href="https://luisinzu.s3-us-west-2.amazonaws.com/Patches/index.html"><img src="img/Patches.png"></a>
+            <div class="card-body">
+              <p class="card-text">Patches & Co.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+              <a href="http://renestireshop.com/"><img src="img/tiresshop.jpg"></a>
+            <div class="card-body">
+              <p class="card-text">Renes Tires</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 shadow-sm">
+              <a href="#"><img src="img/quiz.png"></a>
+            <div class="card-body">
+              <p class="card-text">Quiz</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- ======== /WORK ======== -->
 
 
-    <!-- ======== FACTS ======== -->
-    <div class="facts text-center pd-t-b-96">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-3 col-xs-12 facts-spacing">
-            <span>%100</span>
-            <h4>Dedicated</h4>
-          </div><!-- /col-md-3 -->
-          <div class="col-md-3 col-sm-3 col-xs-12 facts-spacing">
-            <span>3</span>
-            <h4>Projects</h4>
-          </div><!-- /col-md-3 -->
-          <div class="col-md-3 col-sm-3 col-xs-12 facts-spacing">
-            <span>3</span>
-            <h4>Clients</h4>
-          </div><!-- /col-md-3 -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <span>04</span>
-            <h4>Experience</h4>
-          </div><!-- /col-md-3 -->
-        </div><!-- /row -->
-      </div><!-- /container -->
-    </div><!-- /facts -->
-    <!-- ======== /FACTS ======== -->
-
-
     <!-- ======== SERVICES ======== -->
-    <div id="services" class="services pd-t-b-144 text-center">
+    <div id="services" class="services text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -233,7 +222,7 @@
 
 
    <!-- ======== CONTACT ======== -->
-    <div id="contact" class="contact pd-t-b-144">
+    <div id="contact" class="contact pd-t-144">
       <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
@@ -241,53 +230,20 @@
               <h2>Get in touch</h2>
             </div><!-- /section-title -->
           </div><!-- /col-md-12 -->
-          <div class="col-md-4 col-sm-4 text-left">
-            <div class="contact-item contact-more">
+          <div class="text-right row">
+            <div class="contact-item contact-more col-md-4">
               <h4>Address</h4>
-              <p>702 Camelia Dr. Perris, CA 92571</p>
+              <p>Perris, CA 92571</p>
             </div><!-- /contact-item -->
-            <div class="contact-item contact-more">
+            <div class="contact-item contact-more col-md-4">
               <h4>Email</h4>
               <p>Luisinzu08@gmail.com</p>
             </div><!-- /contact-item -->
-            <div class="contact-item contact-more">
-              <h4>Telephone</h4>
+            <div class="contact-item contact-more col-md-4">
+              <h4>Telephone</h4> 
               <p>(951)529-2324</p>
             </div><!-- /contact-item -->
-            <div class="contact-item">
-                <ul class="social-list">
-                  <li><a href="#"><span class="ti-facebook"></span></a></li>
-                  <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-                  <li><a href="#"><span class="ti-google"></span></a></li>
-                  <li><a href="#"><span class="ti-github"></span></a></li>
-                </ul><!-- /social-list -->
-              </div><!-- /contact-item -->
           </div><!-- /col-md-4 -->
-          <div class="col-md-8 col-sm-8">
-            <form id="contactForm" data-toggle="validator">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" class="form-control" id="name" placeholder="Name" minlength="3" required />
-                  <div class="help-block with-errors"></div>
-                </div><!-- /col-md-6 form-group -->
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" id="email" placeholder="Email" required />
-                  <div class="help-block with-errors"></div>
-                </div><!-- /col-md-6 form-group -->
-                <div class="col-md-12 form-group">
-                  <input type="text" class="form-control" id="subject" placeholder="Subject" />
-                </div><!-- /col-md-12 form-group -->
-                <div class="col-md-12 form-group">
-                  <textarea class="form-control" rows="8" id="message" placeholder="Message" required></textarea>
-                  <div class="help-block with-errors"></div>
-                </div><!-- /col-md-12 form-group -->
-                <div class="col-md-12 text-left">
-                  <button id="form-submit" class="btn btn-dark">Send message</button>
-                  <div id="msgSubmit" class="h3 text-center hidden"></div>
-                </div><!-- /col-md-12 form-btn -->
-              </div><!-- /row -->
-            </form><!-- /contactform -->
-          </div><!-- /col-md-8 -->
         </div><!-- /row -->
       </div><!-- /container -->
     </div><!-- /contact -->
