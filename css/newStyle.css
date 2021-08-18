@@ -472,12 +472,11 @@ a:active {
 .banner-video .video-effect {
   max-width: auto;
   height: 100%;
-  background-image: url(/img/newbgimage.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 2;
+  z-index: 1;
 }
 /* ----------------------------------------
    ------------- 12.ABOUT ME --------------
