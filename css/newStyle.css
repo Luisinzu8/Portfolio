@@ -34,23 +34,24 @@ Table of contents:
 /* ----------------------------------------
    ----------- 1.GENERAL STYLES -----------
    ---------------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700,800');
-html, body {
- 	height: 100%;
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700,800");
+html,
+body {
+  height: 100%;
 }
 body {
- 	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   background: #000;
- 	font-family: 'Poppins', Helvetica, Arial, sans-serif;
- 	font-size: 14px;
- 	line-height: 1.5;
- 	letter-spacing: 1px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 body.no-scroll {
   overflow: hidden;
 }
 input::-moz-focus-inner {
-    border: 0;
+  border: 0;
 }
 ul {
   padding: 0;
@@ -67,28 +68,28 @@ h4,
 h5,
 a,
 .number {
- 	color: #fff;
- 	font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   line-height: 1.5;
- 	margin: 0;
- 	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-	font-size: 47px;
+  font-size: 47px;
   line-height: 70px;
   font-weight: 800;
   letter-spacing: 0.15em;
 }
 h2 {
   font-weight: 700;
- 	font-size: 31px;
+  font-size: 31px;
   line-height: 46px;
- 	letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
 }
 h3 {
-	font-size: 21px;
+  font-size: 21px;
   line-height: 34px;
-	letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   font-weight: 600;
 }
 h4 {
@@ -97,20 +98,20 @@ h4 {
   letter-spacing: 0.025em;
 }
 p {
- 	color: #999;
- 	line-height: 24px;
- 	letter-spacing: 0.025em;
+  color: #999;
+  line-height: 24px;
+  letter-spacing: 0.025em;
 }
 .techName {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: white;
   margin-top: 10px;
 }
 a {
- 	text-decoration: none;
- 	font-size: 14px;
+  text-decoration: none;
+  font-size: 14px;
   font-weight: 600;
   outline: none !important;
   cursor: pointer;
@@ -118,9 +119,9 @@ a {
 a:hover,
 a:focus,
 a:active {
- 	color: #fff;
- 	text-decoration: none;
- 	outline: none !important;
+  color: #fff;
+  text-decoration: none;
+  outline: none !important;
 }
 /* ----------------------------------------
    --------------- 3.HELPERS --------------
@@ -363,9 +364,9 @@ a:active {
   top: 50%;
   left: 50%;
   text-align: center;
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .banner-text h1 {
   margin-bottom: 8px;
@@ -411,7 +412,7 @@ a:active {
 .banner-post .banner-text h1 {
   color: #fff;
 }
-.banner-post .discover a{
+.banner-post .discover a {
   color: #fff;
 }
 .banner-post .discover a:hover {
@@ -508,36 +509,36 @@ a:active {
    ------------ 13.PORTFOLIO --------------
    ---------------------------------------- */
 .py-5 {
-  padding-bottom: 3rem!important;
-  padding-top: 3rem!important;
+  padding-bottom: 3rem !important;
+  padding-top: 3rem !important;
 }
 .bg-light {
   background-color: #000;
 }
 .album .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .mb-4 {
-    margin-bottom: 1.5rem!important;
+  margin-bottom: 1.5rem !important;
 }
 .shadow-sm {
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #03acdc;
-    border-radius: .25rem;
-    margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #03acdc;
+  border-radius: 0.25rem;
+  margin-top: 10px;
 }
 .card-text {
   color: #000;
@@ -548,16 +549,16 @@ a:active {
   height: 25em;
 }
 .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    padding: 1.25rem;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
 }
 /* ----------------------------------------
    ------------- 14.SKILLS --------------
    ---------------------------------------- */
 .skills {
-    background-color: #03acdc;
-   }
+  background-color: #03acdc;
+}
 .skills h2 {
   color: #fff;
 }
@@ -614,7 +615,7 @@ a:active {
    --------------- 16.FACTS ---------------
    ---------------------------------------- */
 .facts span {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   letter-spacing: 0.04em;
   color: #fff;
 }
@@ -754,7 +755,7 @@ footer p {
     background-color: #999;
   }
   .navbar-default .navbar-nav > li > a {
-    color: #999!important;
+    color: #999 !important;
   }
   .navbar-default.navbar-light .close-btn .navbar-right > li > a {
     padding: 8px 18px;
